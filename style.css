@@ -1,0 +1,46 @@
+#search-button {
+  color: white;
+  background-color: orangered;
+}
+.card {
+  width: 250px;
+  margin: 5px;
+}
+.card h1 {
+  font-size: 17px;
+  font-weight: bold;
+  padding: 15px;
+  text-align: center;
+}
+.card img {
+  border-radius: 20px 0 20px 0;
+}
+#meal-info {
+  width: 350px;
+  text-align: left;
+  border-radius: 30px;
+}
+.singleMealInfo img {
+  width: 100%;
+  border-radius: 20px;
+  padding: 10px 10px 10px 0;
+}
+.singleMealInfo h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.singleMealInfo h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+.singleMealInfo p {
+  font-size: 15px;
+}
+.singleMealInfo {
+  background-color: whitesmoke;
+  padding: 0 0 5px 10px;
+}
+#display-meals {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
