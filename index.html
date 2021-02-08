@@ -19,22 +19,23 @@
                 <div class="input-group mb-3">
                     <input id="search-input" type="text" class="form-control" placeholder="Search for meal...">
                     <div class="input-group-append">
-                        <button id="search-button" type="button" class="btn">Search</button>
+                        <button id="search-button" onclick="searchMeal()" type="button" class="btn">Search</button>
+
                     </div>
+                    <h5 class="m-3 text-info">Hint: Search with first letter of meal Or Name.</h5>
                 </div>
             </form>
         </div>
-        <div>
-            <div id="meal-info">
 
-            </div>
+        <div id="single-meal-info">
+
         </div>
-        <div>
-            <div id="display-meals">
+        <div id="meal-container" class="row">
 
-            </div>
+
         </div>
     </main>
+
     <script src="app.js"></script>
 </body>
 

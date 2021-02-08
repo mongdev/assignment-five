@@ -2,45 +2,50 @@
   color: white;
   background-color: orangered;
 }
-.card {
-  width: 250px;
-  margin: 5px;
-}
-.card h1 {
-  font-size: 17px;
-  font-weight: bold;
-  padding: 15px;
-  text-align: center;
-}
-.card img {
-  border-radius: 20px 0 20px 0;
-}
-#meal-info {
-  width: 350px;
-  text-align: left;
-  border-radius: 30px;
-}
-.singleMealInfo img {
-  width: 100%;
-  border-radius: 20px;
-  padding: 10px 10px 10px 0;
-}
-.singleMealInfo h1 {
-  font-size: 20px;
-  font-weight: bold;
-}
-.singleMealInfo h3 {
-  font-size: 16px;
-  font-weight: bold;
-}
-.singleMealInfo p {
-  font-size: 15px;
-}
-.singleMealInfo {
-  background-color: whitesmoke;
-  padding: 0 0 5px 10px;
-}
-#display-meals {
+#meal-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+}
+.box {
+  /* border: 1px solid red; */
+  background-color: whitesmoke;
+  /* height: 250px; */
+  text-align: center;
+  border-radius: 15px;
+}
+.box img {
+  width: 100%;
+  height: 80%;
+  border-radius: 25px 0 25px 0;
+  padding: 10px 0;
+}
+.box h3 {
+  font-size: 17px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+#single-meal-info img {
+  width: 350px;
+  height: 300px;
+  border-radius: 15px;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+#single-meal-info h1 {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+#single-meal-info h3 {
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+#single-meal-info p {
+  font-size: 15px;
 }
